@@ -14,6 +14,8 @@
 		47CC65F11BCE9F8300600FF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47CC65EF1BCE9F8300600FF2 /* LaunchScreen.storyboard */; };
 		47CC65FC1BCE9F8300600FF2 /* carrouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CC65FB1BCE9F8300600FF2 /* carrouselTests.swift */; };
 		47CC66071BCE9F8300600FF2 /* carrouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CC66061BCE9F8300600FF2 /* carrouselUITests.swift */; };
+		47CC66151BCEA0E300600FF2 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CC66141BCEA0E300600FF2 /* Common.swift */; settings = {ASSET_TAGS = (); }; };
+		47CC66171BCEA22300600FF2 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CC66161BCEA22300600FF2 /* IntroViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		47CC66021BCE9F8300600FF2 /* carrouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carrouselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47CC66061BCE9F8300600FF2 /* carrouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carrouselUITests.swift; sourceTree = "<group>"; };
 		47CC66081BCE9F8300600FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47CC66141BCEA0E300600FF2 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		47CC66161BCEA22300600FF2 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +104,9 @@
 				47CC65E61BCE9F8300600FF2 /* AppDelegate.swift */,
 				47CC65E81BCE9F8300600FF2 /* ViewController.swift */,
 				47CC65EA1BCE9F8300600FF2 /* Main.storyboard */,
+				47CC66161BCEA22300600FF2 /* IntroViewController.swift */,
 				47CC65ED1BCE9F8300600FF2 /* Assets.xcassets */,
+				47CC66141BCEA0E300600FF2 /* Common.swift */,
 				47CC65EF1BCE9F8300600FF2 /* LaunchScreen.storyboard */,
 				47CC65F21BCE9F8300600FF2 /* Info.plist */,
 			);
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				47CC65E91BCE9F8300600FF2 /* ViewController.swift in Sources */,
+				47CC66151BCEA0E300600FF2 /* Common.swift in Sources */,
 				47CC65E71BCE9F8300600FF2 /* AppDelegate.swift in Sources */,
+				47CC66171BCEA22300600FF2 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
