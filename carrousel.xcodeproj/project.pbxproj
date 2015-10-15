@@ -16,6 +16,7 @@
 		47CC66071BCE9F8300600FF2 /* carrouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CC66061BCE9F8300600FF2 /* carrouselUITests.swift */; };
 		47CC66151BCEA0E300600FF2 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CC66141BCEA0E300600FF2 /* Common.swift */; settings = {ASSET_TAGS = (); }; };
 		47CC66171BCEA22300600FF2 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CC66161BCEA22300600FF2 /* IntroViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		47CC66191BCF306100600FF2 /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CC66181BCF306100600FF2 /* signInViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		47CC66081BCE9F8300600FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47CC66141BCEA0E300600FF2 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		47CC66161BCEA22300600FF2 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		47CC66181BCF306100600FF2 /* signInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				47CC65E61BCE9F8300600FF2 /* AppDelegate.swift */,
 				47CC65E81BCE9F8300600FF2 /* ViewController.swift */,
 				47CC65EA1BCE9F8300600FF2 /* Main.storyboard */,
+				47CC66181BCF306100600FF2 /* signInViewController.swift */,
 				47CC66161BCEA22300600FF2 /* IntroViewController.swift */,
 				47CC65ED1BCE9F8300600FF2 /* Assets.xcassets */,
 				47CC66141BCEA0E300600FF2 /* Common.swift */,
@@ -268,6 +271,7 @@
 				47CC66151BCEA0E300600FF2 /* Common.swift in Sources */,
 				47CC65E71BCE9F8300600FF2 /* AppDelegate.swift in Sources */,
 				47CC66171BCEA22300600FF2 /* IntroViewController.swift in Sources */,
+				47CC66191BCF306100600FF2 /* signInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +496,7 @@
 				47CC660D1BCE9F8300600FF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47CC660E1BCE9F8300600FF2 /* Build configuration list for PBXNativeTarget "carrouselTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +505,7 @@
 				47CC66101BCE9F8300600FF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47CC66111BCE9F8300600FF2 /* Build configuration list for PBXNativeTarget "carrouselUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +514,7 @@
 				47CC66131BCE9F8300600FF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
