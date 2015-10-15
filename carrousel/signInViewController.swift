@@ -10,6 +10,9 @@ import UIKit
 
 class signInViewController: UIViewController {
 
+    @IBOutlet var signInScrollView: UIScrollView!
+    @IBOutlet weak var signInButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -19,7 +22,13 @@ class signInViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    
+    signInScrollView.contentOffset.y = 568
+    signInButton.transform = CGAffineTransformMakeTranslation( 10, 90)
+    
     }
+    
+    
     
 
     /*
