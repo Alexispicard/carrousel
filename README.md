@@ -1,10 +1,9 @@
 # carrousel
 
-I am still struggling to make my scrollview work
+I am still struggling to make my scrollview work even after I impletemented Tim's advice from assignment #1. The scroll does not move I can't figure out why
 
-Here I get no error message but I just can't get the scroll to work on the simulator.
+Also I can't manage to create the navigation bar as an Image view. Can you help me out?
 
-Could you please let me know what is wrong in my code?
 
 Thanks
 
