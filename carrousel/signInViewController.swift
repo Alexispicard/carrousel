@@ -16,6 +16,9 @@ class signInViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        signInScrollView.contentOffset.y = 568
+        
+        
         // Do any additional setup after loading the view.
     }
 
@@ -23,8 +26,7 @@ class signInViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     
-    signInScrollView.contentOffset.y = 568
-    signInButton.transform = CGAffineTransformMakeTranslation( 10, 90)
+    
     
     }
     

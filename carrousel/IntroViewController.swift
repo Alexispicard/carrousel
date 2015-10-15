@@ -16,6 +16,8 @@ class IntroViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        introScrollView.contentSize = introImageView.image!.size
+        
         // Do any additional setup after loading the view.
     }
 
@@ -24,8 +26,8 @@ class IntroViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     
     
-    introScrollView.contentSize = CGSize(width: 320, height: 1136)
-    introScrollView.contentSize = introImageView.image!.size
+    
+    
     
     
     }

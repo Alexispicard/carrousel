@@ -103,9 +103,9 @@
 		47CC65E51BCE9F8300600FF2 /* carrousel */ = {
 			isa = PBXGroup;
 			children = (
+				47CC65EA1BCE9F8300600FF2 /* Main.storyboard */,
 				47CC65E61BCE9F8300600FF2 /* AppDelegate.swift */,
 				47CC65E81BCE9F8300600FF2 /* ViewController.swift */,
-				47CC65EA1BCE9F8300600FF2 /* Main.storyboard */,
 				47CC66181BCF306100600FF2 /* signInViewController.swift */,
 				47CC66161BCEA22300600FF2 /* IntroViewController.swift */,
 				47CC65ED1BCE9F8300600FF2 /* Assets.xcassets */,
