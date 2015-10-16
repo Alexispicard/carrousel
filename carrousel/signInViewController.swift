@@ -13,10 +13,22 @@ class signInViewController: UIViewController {
     @IBOutlet var signInScrollView: UIScrollView!
     @IBOutlet weak var signInButton: UIButton!
     
+    @IBOutlet weak var emailText: UITextField!
+    @IBOutlet weak var passwordText: UITextField!
+    
+    @IBAction func editingChanged(sender: UITextField) {
+    
+    if emailText.text!.isEmpty || passwordText.text!.isEmpty {
+    } else {
+        signInScrollView.contentOffset.y = 568
+        signInButton.transform = CGAffineTransformMakeTranslation( 10, 30)
+        
+        }
+}
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        signInScrollView.contentOffset.y = 568
         
         
         // Do any additional setup after loading the view.
@@ -40,7 +52,7 @@ class signInViewController: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-    }
+    } 
     */
 
 }
